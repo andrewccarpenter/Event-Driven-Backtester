@@ -6,7 +6,7 @@ from queue import Queue
 
 #MY MODULES
 
-from events import FillEvent, OrderEvent
+from Event_Driven_Backtester.events import FillEvent, OrderEvent
 
 class ExecutionAbstractClass(metaclass = ABCMeta):
     #Abstract class providing an interface for all inherited strategy objects

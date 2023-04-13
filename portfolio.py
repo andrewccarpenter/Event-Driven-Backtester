@@ -12,8 +12,8 @@ from math import floor
 
 #MY MODULES
 
-from events import FillEvent, OrderEvent, SignalEvent
-from performance import create_sharpe_ratio, create_drawdowns
+from Event_Driven_Backtester.events import FillEvent, OrderEvent, SignalEvent
+from Event_Driven_Backtester.performance import create_sharpe_ratio, create_drawdowns
 
 class PortfolioAbstractClass(metaclass = ABCMeta):
     #Abstract class providing an interface for all inherited strategy objects

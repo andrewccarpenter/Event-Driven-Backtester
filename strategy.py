@@ -11,7 +11,7 @@ from datetime import datetime
 
 #MY MODULES
 
-from events import (MarketEvent, SignalEvent)
+from Event_Driven_Backtester.events import (MarketEvent, SignalEvent)
 
 class StrategyAbstractClass(metaclass = ABCMeta):
     #Abstract class providing an interface for all inherited strategy objects

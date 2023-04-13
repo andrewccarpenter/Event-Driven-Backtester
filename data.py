@@ -10,7 +10,7 @@ from os.path import (dirname, join, realpath)
 
 #MY MODULES
 
-from events import MarketEvent
+from Event_Driven_Backtester.events import MarketEvent
 
 #This is an abstract base class and so cannot be instantiated.
 #Creates an common interface so that live data feeds can be inputted later
